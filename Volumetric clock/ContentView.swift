@@ -75,7 +75,7 @@ extension ContentView {
     //MARK: HandsView
     private var handsView: some View{
         Canvas{ context ,size in
-            context.addFilter(.alphaThreshold(min: 0.5,color: .appGreen))
+            context.addFilter(.alphaThreshold(min: 0.5,color: .appBlue))
             context.addFilter(.blur(radius: 2))
             
             context.drawLayer { ctx in
@@ -99,7 +99,7 @@ extension ContentView {
     //MARK: - HoursHandView
     private var HoursHandView: some View{
         Capsule(style: .continuous)
-            .fill(LinearGradient(colors: [.appGreen,.appDark], startPoint: .leading, endPoint: .trailing))
+            .fill(LinearGradient(colors: [.appBlue,.appDark], startPoint: .leading, endPoint: .trailing))
             .frame(width: 60,height: 13,alignment: .center)
             .offset(x: 50)
             .rotationEffect(.degrees(hoursAngle))
@@ -109,7 +109,7 @@ extension ContentView {
     //MARK: - MinutesHandView
     private var MinutesHandView: some View{
         Capsule(style: .continuous)
-            .fill(LinearGradient(colors: [.appGreen,.appDark], startPoint: .leading, endPoint: .trailing))
+            .fill(LinearGradient(colors: [.appBlue,.appDark], startPoint: .leading, endPoint: .trailing))
             .frame(width: 70,height: 7,alignment: .center)
             .offset(x: 55)
             .rotationEffect(.degrees(minutesAngle))
