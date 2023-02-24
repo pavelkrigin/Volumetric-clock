@@ -86,18 +86,18 @@ extension ContentView {
                 ctx.draw(minute, at: CGPoint(x: size.width/2, y: size.height/2))
             }
         }symbols: {
-            HoursHandView
+            hoursHandView
                 .rotationEffect(.degrees(-90))
                 .tag(1)
             
-            MinutesHandView
+            minutesHandView
                 .rotationEffect(.degrees(-90))
                 .tag(2)
         }
     }
     
     //MARK: - HoursHandView
-    private var HoursHandView: some View{
+    private var hoursHandView: some View{
         Capsule(style: .continuous)
             .fill(LinearGradient(colors: [.appBlue,.appDark], startPoint: .leading, endPoint: .trailing))
             .frame(width: 60,height: 13,alignment: .center)
@@ -107,7 +107,7 @@ extension ContentView {
     }
     
     //MARK: - MinutesHandView
-    private var MinutesHandView: some View{
+    private var minutesHandView: some View{
         Capsule(style: .continuous)
             .fill(LinearGradient(colors: [.appBlue,.appDark], startPoint: .leading, endPoint: .trailing))
             .frame(width: 70,height: 7,alignment: .center)
