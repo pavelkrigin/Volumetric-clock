@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Volumetric_clockApp: App {
+struct VolumetricClock: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

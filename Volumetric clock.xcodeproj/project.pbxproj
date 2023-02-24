@@ -11,6 +11,7 @@
 		CAD9287329A8D7EF00EABE5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9287229A8D7EF00EABE5F /* ContentView.swift */; };
 		CAD9287529A8D7F100EABE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD9287429A8D7F100EABE5F /* Assets.xcassets */; };
 		CAD9287829A8D7F100EABE5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD9287729A8D7F100EABE5F /* Preview Assets.xcassets */; };
+		CAD9287F29A8E49500EABE5F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9287E29A8E49400EABE5F /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CAD9287229A8D7EF00EABE5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAD9287429A8D7F100EABE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD9287729A8D7F100EABE5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD9287E29A8E49400EABE5F /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Color+Extension.swift"; path = "Volumetric clock/Color+Extension.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				CAD9287229A8D7EF00EABE5F /* ContentView.swift */,
 				CAD9287429A8D7F100EABE5F /* Assets.xcassets */,
 				CAD9287629A8D7F100EABE5F /* Preview Content */,
+				CAD9287E29A8E49400EABE5F /* Color+Extension.swift */,
 			);
 			path = "Volumetric clock";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD9287329A8D7EF00EABE5F /* ContentView.swift in Sources */,
+				CAD9287F29A8E49500EABE5F /* Color+Extension.swift in Sources */,
 				CAD9287129A8D7EF00EABE5F /* Volumetric_clockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
